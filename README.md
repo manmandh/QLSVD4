@@ -1,3 +1,3 @@
 # QLSVD4
-Manage stundent
-Excercise 
+Manage student
+
