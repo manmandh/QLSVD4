@@ -7,6 +7,7 @@ public class Student {
     private String address;
     private int age;
     private double GPA;
+    final Scanner scanner = new Scanner(System.in);
     public Student(){
 
     }
