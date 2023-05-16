@@ -7,7 +7,7 @@ public class Student {
     private String address;
     private int age;
     private double GPA;
-    final Scanner scanner = new Scanner(System.in);
+    final Scanner sc = new Scanner(System.in);
     public Student(){
 
     }
@@ -69,7 +69,6 @@ public class Student {
         setGPA(inputGPA());
     }
     public int inputId() {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Input student id: ");
         while (true) {
             try {
@@ -82,7 +81,6 @@ public class Student {
     }
     // input name - return
     public String inputName() {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Input student name: ");
         while (true) {
             try {
@@ -98,7 +96,6 @@ public class Student {
     }
     // input age - return
     public int inputAge() {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Input student age: ");
         while (true) {
             try {
@@ -114,13 +111,11 @@ public class Student {
     }
     // input address - return
     public String inputAddress() {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Input student address: ");
         return sc.nextLine();
     }
     // input GPD - return
     private double inputGPA() {
-        Scanner sc = new Scanner(System.in);
         System.out.print("Input student gpa: ");
         while (true) {
             try {
